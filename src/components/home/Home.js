@@ -1,13 +1,12 @@
 import React from 'react';
 import './home.css';
+import logo from '../../assets/logo.png';
 
 function Home() {
     return (
         <div className="HomePage">
             <header className="HomeHeader">
-                <div className="banner-text">
-                    <h1>Minha Marca Aqui</h1>
-                </div>
+                <img src={logo} />
             </header>
         </div>
     );

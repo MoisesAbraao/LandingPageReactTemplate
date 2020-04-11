@@ -8,6 +8,8 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-grid-gallery": "^0.5.5",
+    "react-justified-grid": "^0.0.8",
     "react-scripts": "3.4.1"
   },
   "scripts": {

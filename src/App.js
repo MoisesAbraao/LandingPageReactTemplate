@@ -8,12 +8,12 @@ import './App.css';
 
 function App() {
   return (
-      <>
-        <Home />
-        <Portfolio />
-        <About />
-        <Contact />
-      </>
+    <>
+      <Home />
+      <Portfolio />
+      <About />
+      <Contact />
+    </>
   );
 }
 

@@ -1,5 +1,5 @@
 .PortfolioPage {
-    text-align: center;
+    text-align: top;
 }
 
 .PortfolioHeader {
@@ -15,4 +15,31 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+}
+
+.PageTitle {
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+}
+
+.PageTitle h1 {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  font-size: 75px;
+}
+
+.ListPhotos {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ListPhotos hr {
+  /* background-color: black; */
+  border-top: 5px dotted black;
+  width: 85%;
+  /* height: 0px; */
+  /* margin: auto; */
 }

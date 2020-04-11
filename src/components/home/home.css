@@ -3,10 +3,11 @@
 }
 
 .HomeHeader {
-  background-color: rgb(232, 232, 232);
+  background-image: url(../../assets/backgroundhome.jpg);
+  /* background-color:  #0D264F; */
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: none;
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -14,5 +15,28 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: #FFF;
 }
+
+.home-banner-text {
+  background-color: rgb(79, 1, 73);
+  align-items: center;
+  opacity: .8;
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+}
+
+.home-banner-text hr {
+  border-top: 5px white;
+  width: 50%;
+  margin: auto;
+}
+
+.home-banner-text h1 {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+
+
